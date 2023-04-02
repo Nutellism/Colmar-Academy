@@ -109,7 +109,12 @@ html {
    border-radius: 5px;
    margin-right: auto;
    justify-content: center;
+   transition: color .5ms ease-in .2ms, all .5ms;
+
    
+   }
+   .startbutton:hover {
+    background-color: rgba(0, 0, 0, 0.747);
    }
    .startbutton p {
     color: white;
