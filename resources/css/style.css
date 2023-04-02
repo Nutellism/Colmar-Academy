@@ -1,0 +1,640 @@
+html {
+    font-size: 22px;
+   
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Sarabun", "Roboto", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+     flex-shrink: 8;
+     overflow-x: hidden;
+   }
+                                                                                                /* Header*/
+   header {
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    height: 64px;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+   }
+   .header .mobile {
+    display: none;
+   }
+   .logo-colmar {
+   overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+   padding: 32px;
+    height: 32px;
+   margin-bottom: 12px;
+    
+   }
+   .logo {
+    margin-bottom: 7px;
+   }
+   .textlogo {
+    overflow: hidden;
+    margin-bottom: 6px;
+   }
+   nav {
+    z-index: 1;
+    height: 64px;
+    overflow: hidden;
+    
+   }
+
+   ul {
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 24px;
+    overflow: hidden;
+    
+   }
+   li {
+    text-align: right;
+    display: inline;
+   padding-left: 16px;
+    
+   }
+
+   a {
+    text-decoration: none;
+   }
+                                                             /*Landing */
+   .landing {
+    margin-top: 60px;
+    display: flex;
+    background-color: lightgrey;
+   
+   
+
+   }
+
+   .studyphoto {
+   
+     padding: 2%;
+     width: 100%;
+   }
+   
+   .cta {
+    display: flex;
+    width: 100%;
+   }
+
+  .landingtext {
+    width: 50%;
+    text-align: left;
+        line-height: 1.6;
+        margin: auto;
+        align-items: center;
+        justify-content: center
+       
+  }
+  .landingtext h2 {
+    padding-bottom: 20px;
+    line-height: 1.6;
+    font-size: .909rem;
+  }
+   .startbutton {
+    display: flex;
+    background-color: rgb(78, 76, 76);
+    padding: 10px;
+   border-radius: 5px;
+   margin-right: auto;
+   justify-content: center;
+   
+   }
+   .startbutton p {
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.364rem;
+    
+   }
+                                                                /*Orientation */
+    .orientation {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    
+    .orientationleft {
+        display: flex;
+        padding: 2%;
+        display: flex;
+     flex-direction: column;
+    }
+
+ 
+
+   .orientationtext h1 {
+    padding: 32px 0px 24px 24px;
+   }
+
+   .orientationtext p {
+    padding-top: 0;
+    padding: 24px;
+    width: 80%;
+   }
+ 
+   .orientationright {
+    
+	border-left: 1px solid lightgray;
+	display: inline-block;
+	padding-top: 74px;
+
+    
+
+   }
+
+   .datecard {
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    transition: color .5ms ease-in .2ms, all .5ms 
+   }
+
+   .datecard:hover{
+    background-color: rgba(107, 107, 107, 0.397);
+   }
+ .datecard img {
+    padding: 16px;
+ }
+    .datemobile {
+        display: none;
+    }
+   .datetext {
+    width: 500px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+   }
+
+   .datetext span {
+    text-align: left;
+    color: blue;
+   }
+
+   .campuscard {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    transition: color .5ms ease-in .2ms, all .5ms 
+   }
+
+   .campuscard:hover {
+    background-color: rgba(107, 107, 107, 0.397);
+   }
+
+   .campuscard img {
+    padding: 16px;
+   }
+   .campusmobile {
+    display: none;
+   }
+   .campustext {
+    width: 500px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+   }
+   .campustext span {
+    text-align: left;
+    color: blue;
+   }
+
+   .guestcard {
+    
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    transition: color .5ms ease-in .2ms, all .5ms 
+   }
+
+   .guestcard:hover {
+    background-color: rgba(107, 107, 107, 0.397);
+   }
+
+ .guestcard img {
+    padding: 16px;
+
+ }
+    .guestmobile {
+        display: none;
+    }
+   .guesttext {
+    padding-left: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .guesttext p{
+    padding: 8px 0 ;
+   }
+
+   .guesttext span {
+    text-align: left;
+    color: blue;
+   }
+
+                                       /*Classes */
+    .classes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: lightgray;
+        
+    }                                                    
+    .classes h1 {
+        padding: 32px;
+        font-size: 1.818rem;
+    }
+.classmobile {
+    display: none;
+}
+    .classcontainerdesktop {
+     display: flex;  
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    padding: 32px 72px;
+    margin: auto;
+}
+    
+    .classcard {
+       
+        width: 530px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 32px;
+        transition: color .5ms ease-in .2ms, all .5ms;
+    }
+
+    .classcard:hover {
+        background-color: rgba(107, 107, 107, 0.397);
+    }
+    .classpic {
+        height: auto;
+    }
+    .classtext {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        
+    }
+   
+    .classtext h2 {
+        padding-top: 16px;
+    }
+    .classtext h5 {
+        padding: 8px 0;
+    }
+
+    .classtext p {
+        line-height: 1.6;
+        padding-bottom: 24px;
+    }
+
+    .thesis {
+display: grid;
+grid-template-columns: 3fr 2fr;
+
+    }
+
+    .thesiswrapper h1 {
+        text-align: center;
+        padding: 32px 0;
+        font-size: 1.818rem;
+    }
+
+    .thesisleft {
+        padding: 0 24px 24px 24px;
+       
+    }
+    .thesisleft video{
+    width: 100%;
+    }
+    
+    .urbantext h2{
+        padding-top: 24px;
+    padding-bottom: 8px;
+    }
+
+    .urbantext p {
+        padding-bottom: 32px;
+    }
+
+    .thesisright {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thesiscard {
+        padding: 2%;
+        border-left: 1px solid lightgray;
+	display: flex;
+	align-items: center;
+    transition: color .5ms ease-in .2ms, all .5ms;
+    }
+    .thesiscard:hover {
+        background-color: rgba(107, 107, 107, 0.397);
+    }
+ .thesiscard img {
+    width: 35%;
+ }
+    .thesistext {
+       flex-direction: column;
+        display: flex;
+       width: 65%;
+        margin-left: 2%;
+    }
+
+    .thesistext h2 {
+        padding-bottom: 8px;
+    }
+
+    .foot {
+        border-top: 1px solid lightgray;
+        width: 100%;
+        padding: 16px 24px;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0; 
+        text-align:center
+    
+    }
+
+    
+    .foot ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    .foot li {
+        text-align: right;
+    }
+
+
+    /*-mobile responsiveness-*/
+
+    @media only screen and (max-width: 600px) {
+        
+        .navdesktop {
+        display: none;
+        }
+    
+        nav .navmobile {
+            top: 0;
+            position: fixed;
+            z-index: 100;
+            height: 64px;
+            background-color: white;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        nav .mobileicon {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 50px;
+            margin-top: 13px;
+            height: auto;
+            margin-top: 9px;
+            height: 45px;
+            align-items: center;
+            overflow: hidden;
+        }
+        .mobileicon img {
+            height: 45px;
+        }
+        .logo {
+            margin-top: 5px;
+        }
+        a {
+            align-items: center;
+            text-decoration: none;
+            height: max-content;
+        }
+        .landing {
+            flex-direction: column;
+            
+        }
+
+        .landing .studyphoto {
+            width: 100%;
+            padding: 0;
+            object-fit: cover;
+        }
+
+        .cta .landingtext {
+            width: fit-content;
+            padding: 32px 16px;
+        }
+        
+        .landingtext h2 {
+            font-size: .909rem;
+            padding-top: 32px;
+        }
+
+        .startbutton {
+           
+            width: auto;
+            height: auto;
+            transition: color .5ms ease-in .2ms, all .5ms;
+            
+        }
+        .startbutton:hover {
+            background-color: rgba(0, 0, 0, 0.747);
+            
+        }
+        .startbutton p {
+            transition: color .5ms ease-in .2ms, all .5ms;
+        }
+        .startbutton p:hover {
+            color: rgb(127, 164, 197);
+        }
+        .orientation {
+            display: flex;
+
+        }
+
+        .orientationleft {
+            display: none;
+        }
+
+        .orientationright {
+            display: flex;
+            flex-direction: column;
+            padding-top: 16px ;
+            border-bottom: 1px solid lightgray;
+
+        }
+
+        .orientationright p {
+            padding: 16px 0;
+        }
+        
+        .datecard .datedesktop {
+          display: none  ;
+          padding: 0;
+        }
+
+        .datecard {
+            margin-top: 16px;
+            flex-direction: column;
+            margin: 0 16px 0 16px;
+            border: 0;
+        }
+
+        .datecard img {
+            padding: 0;
+        }
+
+        .datemobile {
+            display: block;
+            padding: 16px;
+        }
+        .datetext {
+            padding: 0;
+            margin: auto;
+        }
+        .datetext h2 {
+            padding-top: 16px;
+        }
+        .campuscard {
+           
+            flex-direction: column;
+            margin:  64px 16px 0 16px;
+            border: 0;
+        }
+        .campuscard img {
+            padding: 0;
+        }
+        .campusdesktop {
+            display: none;
+        }
+
+        .campusmobile {
+            display: block;
+            
+        }
+        .campustext {
+            padding: 0;
+        }
+        .campustext h2 {
+            padding-top: 16px;
+        }
+        .guestcard {
+            flex-direction: column;
+            padding: 0 0 32px 0;
+            margin: 64px 16px 0 16px;
+            border: 0;
+        }
+.guestcard img {
+    padding: 0;
+}
+        .guestdesktop {
+            display: none;
+        }
+        .guesttext {
+            padding: 0;
+        }
+        .guesttext h2 {
+            padding-top: 16px;
+        }
+        .guestcard img {
+            padding: 0;
+        }
+        .guestmobile {
+            display: block;
+            padding: 0;
+        }
+
+        .classes {
+            background-color: white;
+            padding-bottom: 0;
+            border-bottom: 1px solid lightgray;
+       }
+
+        .classes h1 {
+            padding-top: 32px;
+            padding-bottom: 16px;
+        }
+
+        .classcontainerdesktop {
+            display: none;
+        }
+
+        .classmobile {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 32px;
+            margin-right: 16px;  
+            padding-bottom: 0;
+            
+        }
+
+        .classmobileclass {
+            display: flex;
+            background-color: rgb(78, 76, 76);
+            flex-direction: column;
+            justify-content: start;
+            width: 100%;
+            margin-bottom: 16px;
+            margin-top: 0;
+            padding-bottom: 24px;
+            padding-left: 16px;
+            padding-top: 16px;
+            transition: color .5ms ease-in .2ms, all .5ms;
+        
+            
+            
+        }
+        .classmobileclass:hover {
+            background-color: rgba(187, 187, 187, 0.397);
+        }
+        .classmobileclass p {
+            padding: 16px;
+            font-size: 1.291rem;
+        }
+        .thesis {
+            display: flex;
+        }
+        .thesiswrapper h1 {
+            padding-bottom: 16px;
+            padding-top:32px;
+        }
+        .urbantext {
+            display: none;
+        }
+        .thesisright{
+             display: none;
+            }
+
+        .thesisleft {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 24px;
+        }
+
+        .foot ul {
+            display: none;
+        }
+
+        .foot  {
+            padding: 16px 0;
+            padding-left: 16px;
+        }
+    }
