@@ -175,7 +175,7 @@ html {
         display: none;
     }
    .datetext {
-    width: 500px;
+    width: 100%;
         display: flex;
         flex-direction: column;
         padding-left: 20px;
@@ -204,7 +204,7 @@ html {
     display: none;
    }
    .campustext {
-    width: 500px;
+    width: 100%;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
@@ -236,13 +236,14 @@ html {
     }
    .guesttext {
     padding-left: 20px;
-    width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
    }
 
    .guesttext p{
     padding: 8px 0 ;
+    width: 500px;
    }
 
    .guesttext span {
