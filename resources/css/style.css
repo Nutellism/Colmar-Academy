@@ -645,3 +645,27 @@ grid-template-columns: 3fr 2fr;
             padding-left: 16px;
         }
     }
+
+    @media only screen and (max-width: 552px) {
+        .guestcard {
+            padding-left: 6px;
+        }
+            .guesttext {
+                width: 100%;
+            }
+        .datecard {
+            padding-left: 6px;
+
+        }
+        .datetext {
+            width: 100%;
+        }
+        .campuscard {
+            padding-left: 6px;
+        }
+        .campustext {
+           
+                width: 100%;
+            
+        }
+    }
