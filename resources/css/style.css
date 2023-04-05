@@ -604,14 +604,13 @@ grid-template-columns: 3fr 2fr;
             background-color: white;
             padding-bottom: 0;
             border-bottom: 1px solid lightgray;
-            width: 100%;
-            margin-left: 16px;
-            padding-right: 20px;
+            width: 95%;
+            margin-left: 14px;
        }
 
         .classes h1 {
             padding-top: 32px;
-            padding-bottom: 16px;
+            margin-bottom: 16px;
         }
 
         .classcontainerdesktop {
@@ -623,7 +622,7 @@ grid-template-columns: 3fr 2fr;
             flex-direction: column;
             width: 100%;
             margin-bottom: 32px;
-            margin-right: 16px;  
+            
             padding-bottom: 0;
             
         }
