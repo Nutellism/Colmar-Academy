@@ -535,6 +535,7 @@ grid-template-columns: 3fr 2fr;
         }
         .campustext {
             padding: 0;
+            flex-shrink: 3;
         }
         .campustext h2 {
             padding-top: 16px;
@@ -622,6 +623,7 @@ grid-template-columns: 3fr 2fr;
         }
         .urbantext {
             display: none;
+
         }
         .thesisright{
              display: none;
